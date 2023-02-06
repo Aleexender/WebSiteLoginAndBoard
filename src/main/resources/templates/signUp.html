@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="loginbox">
+  <h2>회원가입</h2>
+  <form action="#">
+    <!--작성하지 않아도 문제는 없음-->
+    <fieldset>
+      <legend>회원가입</legend>
+      <label for="id">아이디(E-mail)</label>
+      <input type="text" id="id" placeholder="아이디(E-mail)을 입력해 주세요" th:value="${id}">
+      <label for="password">비밀번호</label>
+      <input type="password" id="password" placeholder="비밀번호를 입력해 주세요">
+
+      <!--데이터를 서버로 전송-->
+      <button type="submit">등록하기</button>
+    </fieldset>
+  </form>
+</div>
+</body>
+</html>

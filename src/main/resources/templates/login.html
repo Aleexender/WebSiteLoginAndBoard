@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div class="loginbox">
+  <h2>로그인</h2>
+  <form action="#">
+    <!--작성하지 않아도 문제는 없음-->
+    <fieldset>
+      <legend>로그인 구역</legend>
+      <label for="id">아이디(E-mail)</label>
+      <input type="text" id="id" placeholder="아이디(E-mail)을 입력해 주세요">
+      <label for="password">비밀번호</label>
+      <input type="password" id="password" placeholder="비밀번호를 입력해 주세요">
+      <ul>
+<!--        <li><a href="#">아이디/비밀번호찾기</a></li>-->
+        <li id="signUpBtn"> 회원가입 </li>
+      </ul>
+      <!--데이터를 서버로 전송-->
+      <button type="submit">로그인</button>
+    </fieldset>
+  </form>
+</div>
+<script src="/js/logingIn.js" type="text/javascript"></script>
+</body>
+</html>
